@@ -22,14 +22,14 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE
 
+# Set base image (this is just a example)
+FROM mcr.microsoft.com/devcontainers/python:3.10-bullseye
+
 # Settings
 ARG USERNAME=exp
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 ARG WORK_DIR=/workspace
-
-# Set base image (this is just a example)
-FROM mcr.microsoft.com/devcontainers/python:3.10-bullseye
 
 # Start CITE SECTION
 
