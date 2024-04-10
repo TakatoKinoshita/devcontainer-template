@@ -1,2 +1,2 @@
 # devcontainer-template
-devcontainer template for experimental environment
+devcontainer template for experimental environments
