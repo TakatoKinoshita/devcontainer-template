@@ -20,4 +20,4 @@ Please edit `env.REPO_NAME` and set `secrets.DOCKER_USERNAME` and `secrets.DOCKE
 ## [`.devcontainer/devcontainer.json`](/.devcontainer/devcontainer.json)
 A template of devcontainer setting.
 This may not be necessary for publishing your environment, but it is convenient for performing the experiment.
-Please edit the value of `image` at least.
+Please edit `image` at least.
