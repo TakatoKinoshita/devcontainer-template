@@ -15,7 +15,7 @@ Please edit `FROM` instruction at least.
 ## [`.github/workflows/docker-build-push.yaml`](/.github/workflows/docker-build-push.yaml)
 A template of Github Actions setting.
 A docker image is built and pushed into Dockerhub by Github Actions according to this setting when you release a tagged commit.
-Please edit `env.REPO_NAME` and set `secrets.DOCKER_USERNAME` and `secrets.DOCKER_PASSWORD` at least.
+Please set `secrets.DOCKER_USERNAME` and `secrets.DOCKER_PASSWORD` at least.
 
 ## [`.devcontainer/devcontainer.json`](/.devcontainer/devcontainer.json)
 A template of devcontainer setting.
